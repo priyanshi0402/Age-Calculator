@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E5CBE4733412EAC36776F9 /* Pods_Age_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D0DFF4341631D19057DA6D /* Pods_Age_Calculator.framework */; };
 		5BE367BD2A03D47100A7D885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE367BC2A03D47100A7D885 /* AppDelegate.swift */; };
 		5BE367BF2A03D47100A7D885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE367BE2A03D47100A7D885 /* SceneDelegate.swift */; };
 		5BE367C12A03D47100A7D885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE367C02A03D47100A7D885 /* ViewController.swift */; };
 		5BE367C42A03D47100A7D885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE367C22A03D47100A7D885 /* Main.storyboard */; };
 		5BE367C62A03D47300A7D885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE367C52A03D47300A7D885 /* Assets.xcassets */; };
 		5BE367C92A03D47300A7D885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE367C72A03D47300A7D885 /* LaunchScreen.storyboard */; };
+		5BE368AA2A03D8E700A7D885 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE368A42A03D8E700A7D885 /* CustomView.swift */; };
+		5BE368AB2A03D8E700A7D885 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE368A52A03D8E700A7D885 /* CustomButton.swift */; };
+		5BE368AC2A03D8E700A7D885 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE368A62A03D8E700A7D885 /* CustomTextField.swift */; };
+		5BE368AF2A0418E100A7D885 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE368AE2A0418E100A7D885 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B76129EBB2E647CBC79D750 /* Pods-Age Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Age Calculator.release.xcconfig"; path = "Target Support Files/Pods-Age Calculator/Pods-Age Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		36D0DFF4341631D19057DA6D /* Pods_Age_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Age_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FC46D96A7B83D6431CB4B2 /* Pods-Age Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Age Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Age Calculator/Pods-Age Calculator.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE367B92A03D47100A7D885 /* Age Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE367BC2A03D47100A7D885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE367BE2A03D47100A7D885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		5BE367C52A03D47300A7D885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE367C82A03D47300A7D885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE367CA2A03D47300A7D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE368A42A03D8E700A7D885 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		5BE368A52A03D8E700A7D885 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5BE368A62A03D8E700A7D885 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5BE368AE2A0418E100A7D885 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5CBE4733412EAC36776F9 /* Pods_Age_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50819C1E379AF4EEAFA59613 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D0DFF4341631D19057DA6D /* Pods_Age_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BE367B02A03D47100A7D885 = {
 			isa = PBXGroup;
 			children = (
 				5BE367BB2A03D47100A7D885 /* Age Calculator */,
 				5BE367BA2A03D47100A7D885 /* Products */,
+				8D2AFA24F7AD9EE9E555ECC8 /* Pods */,
+				50819C1E379AF4EEAFA59613 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		5BE367BB2A03D47100A7D885 /* Age Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5BE368A32A03D8E700A7D885 /* Custom Controls */,
 				5BE367BC2A03D47100A7D885 /* AppDelegate.swift */,
 				5BE367BE2A03D47100A7D885 /* SceneDelegate.swift */,
 				5BE367C02A03D47100A7D885 /* ViewController.swift */,
+				5BE368AE2A0418E100A7D885 /* DetailViewController.swift */,
 				5BE367C22A03D47100A7D885 /* Main.storyboard */,
 				5BE367C52A03D47300A7D885 /* Assets.xcassets */,
 				5BE367C72A03D47300A7D885 /* LaunchScreen.storyboard */,
 				5BE367CA2A03D47300A7D885 /* Info.plist */,
 			);
 			path = "Age Calculator";
+			sourceTree = "<group>";
+		};
+		5BE368A32A03D8E700A7D885 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				5BE368A42A03D8E700A7D885 /* CustomView.swift */,
+				5BE368A52A03D8E700A7D885 /* CustomButton.swift */,
+				5BE368A62A03D8E700A7D885 /* CustomTextField.swift */,
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		8D2AFA24F7AD9EE9E555ECC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FC46D96A7B83D6431CB4B2 /* Pods-Age Calculator.debug.xcconfig */,
+				0B76129EBB2E647CBC79D750 /* Pods-Age Calculator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE367CD2A03D47300A7D885 /* Build configuration list for PBXNativeTarget "Age Calculator" */;
 			buildPhases = (
+				5CE6AD4360E14DC94B88EC59 /* [CP] Check Pods Manifest.lock */,
 				5BE367B52A03D47100A7D885 /* Sources */,
 				5BE367B62A03D47100A7D885 /* Frameworks */,
 				5BE367B72A03D47100A7D885 /* Resources */,
+				48EA212095618317B51706DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +179,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48EA212095618317B51706DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Age Calculator/Pods-Age Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Age Calculator/Pods-Age Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Age Calculator/Pods-Age Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE6AD4360E14DC94B88EC59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Age Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BE367B52A03D47100A7D885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE368AC2A03D8E700A7D885 /* CustomTextField.swift in Sources */,
+				5BE368AA2A03D8E700A7D885 /* CustomView.swift in Sources */,
 				5BE367C12A03D47100A7D885 /* ViewController.swift in Sources */,
+				5BE368AB2A03D8E700A7D885 /* CustomButton.swift in Sources */,
 				5BE367BD2A03D47100A7D885 /* AppDelegate.swift in Sources */,
 				5BE367BF2A03D47100A7D885 /* SceneDelegate.swift in Sources */,
+				5BE368AF2A0418E100A7D885 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		5BE367CE2A03D47300A7D885 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FC46D96A7B83D6431CB4B2 /* Pods-Age Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,26 +383,32 @@
 				DEVELOPMENT_TEAM = 2T8ZX7X76S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Age Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Age Master";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agecalculator.ios.Age-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agecalculator.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5BE367CF2A03D47300A7D885 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B76129EBB2E647CBC79D750 /* Pods-Age Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,21 +417,26 @@
 				DEVELOPMENT_TEAM = 2T8ZX7X76S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Age Calculator/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Age Master";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.agecalculator.ios.Age-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agecalculator.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
